@@ -10,7 +10,7 @@
         </ion-toolbar>
       </ion-header>
       
-      <ion-content>
+      <ion-content color="medium">
             <form onsubmit="processForm(event)">
                     <ion-list lines="full" class="ion-no-margin ion-no-padding">
                       <h3 text-center>Create Your Account</h3>
@@ -64,8 +64,8 @@
                       <ion-button [routerLink]="'/tabs/tab3'" expand="block" type="submit" class="ion-no-margin">Create account</ion-button>
                     </div>
                     <div class="center">
-                    <ion-chip outline color="primary" class="ion-float-left" [routerLink]="'/tabs/login'">
-                        <ion-label color="primary" >Sign in</ion-label>
+                    <ion-chip class="ion-float-left" [routerLink]="'/tabs/login'">
+                        <ion-label color="dark" >Sign in</ion-label>
                     </ion-chip>
                   </div>
                   </form>
